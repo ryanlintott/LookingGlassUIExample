@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,12 @@
 		CF4D35BE26540517001D5F2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4D35BD26540517001D5F2A /* Preview Assets.xcassets */; };
 		CF4D35C926540517001D5F2A /* LookingGlassUIExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35C826540517001D5F2A /* LookingGlassUIExampleTests.swift */; };
 		CF4D35D426540517001D5F2A /* LookingGlassUIExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35D326540517001D5F2A /* LookingGlassUIExampleUITests.swift */; };
+		CF4D35E326540576001D5F2A /* LookingGlassUI in Frameworks */ = {isa = PBXBuildFile; productRef = CF4D35E226540576001D5F2A /* LookingGlassUI */; };
+		CF4D35E9265405AF001D5F2A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E4265405AE001D5F2A /* SettingsView.swift */; };
+		CF4D35EA265405AF001D5F2A /* Color-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E5265405AE001D5F2A /* Color-extension.swift */; };
+		CF4D35EB265405AF001D5F2A /* ArrowRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E6265405AE001D5F2A /* ArrowRotationView.swift */; };
+		CF4D35EC265405AF001D5F2A /* TextReflectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E7265405AE001D5F2A /* TextReflectionExampleView.swift */; };
+		CF4D35ED265405AF001D5F2A /* ShimmerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E8265405AE001D5F2A /* ShimmerExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		CF4D35CF26540517001D5F2A /* LookingGlassUIExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookingGlassUIExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4D35D326540517001D5F2A /* LookingGlassUIExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookingGlassUIExampleUITests.swift; sourceTree = "<group>"; };
 		CF4D35D526540517001D5F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4D35E4265405AE001D5F2A /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CF4D35E5265405AE001D5F2A /* Color-extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color-extension.swift"; sourceTree = "<group>"; };
+		CF4D35E6265405AE001D5F2A /* ArrowRotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowRotationView.swift; sourceTree = "<group>"; };
+		CF4D35E7265405AE001D5F2A /* TextReflectionExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextReflectionExampleView.swift; sourceTree = "<group>"; };
+		CF4D35E8265405AE001D5F2A /* ShimmerExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShimmerExampleView.swift; sourceTree = "<group>"; };
+		CF4D35EE26540674001D5F2A /* LookingGlassUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LookingGlassUI; path = ../LookingGlassUI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4D35E326540576001D5F2A /* LookingGlassUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +88,7 @@
 		CF4D35AA26540516001D5F2A = {
 			isa = PBXGroup;
 			children = (
+				CF4D35EE26540674001D5F2A /* LookingGlassUI */,
 				CF4D35B526540516001D5F2A /* LookingGlassUIExample */,
 				CF4D35C726540517001D5F2A /* LookingGlassUIExampleTests */,
 				CF4D35D226540517001D5F2A /* LookingGlassUIExampleUITests */,
@@ -97,6 +111,11 @@
 			children = (
 				CF4D35B626540516001D5F2A /* LookingGlassUIExampleApp.swift */,
 				CF4D35B826540516001D5F2A /* ContentView.swift */,
+				CF4D35E6265405AE001D5F2A /* ArrowRotationView.swift */,
+				CF4D35E5265405AE001D5F2A /* Color-extension.swift */,
+				CF4D35E4265405AE001D5F2A /* SettingsView.swift */,
+				CF4D35E8265405AE001D5F2A /* ShimmerExampleView.swift */,
+				CF4D35E7265405AE001D5F2A /* TextReflectionExampleView.swift */,
 				CF4D35BA26540517001D5F2A /* Assets.xcassets */,
 				CF4D35BF26540517001D5F2A /* Info.plist */,
 				CF4D35BC26540517001D5F2A /* Preview Content */,
@@ -146,6 +165,9 @@
 			dependencies = (
 			);
 			name = LookingGlassUIExample;
+			packageProductDependencies = (
+				CF4D35E226540576001D5F2A /* LookingGlassUI */,
+			);
 			productName = LookingGlassUIExample;
 			productReference = CF4D35B326540516001D5F2A /* LookingGlassUIExample.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +239,9 @@
 				Base,
 			);
 			mainGroup = CF4D35AA26540516001D5F2A;
+			packageReferences = (
+				CF4D35E126540576001D5F2A /* XCRemoteSwiftPackageReference "LookingGlassUI" */,
+			);
 			productRefGroup = CF4D35B426540516001D5F2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +284,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4D35E9265405AF001D5F2A /* SettingsView.swift in Sources */,
+				CF4D35ED265405AF001D5F2A /* ShimmerExampleView.swift in Sources */,
+				CF4D35EA265405AF001D5F2A /* Color-extension.swift in Sources */,
+				CF4D35EB265405AF001D5F2A /* ArrowRotationView.swift in Sources */,
 				CF4D35B926540516001D5F2A /* ContentView.swift in Sources */,
 				CF4D35B726540516001D5F2A /* LookingGlassUIExampleApp.swift in Sources */,
+				CF4D35EC265405AF001D5F2A /* TextReflectionExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +610,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF4D35E126540576001D5F2A /* XCRemoteSwiftPackageReference "LookingGlassUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ryanlintott/LookingGlassUI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF4D35E226540576001D5F2A /* LookingGlassUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF4D35E126540576001D5F2A /* XCRemoteSwiftPackageReference "LookingGlassUI" */;
+			productName = LookingGlassUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CF4D35AB26540516001D5F2A /* Project object */;
 }

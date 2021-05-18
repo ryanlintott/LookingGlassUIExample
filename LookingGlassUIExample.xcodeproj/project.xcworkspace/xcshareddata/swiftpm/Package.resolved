@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LookingGlassUI",
+        "repositoryURL": "https://github.com/ryanlintott/LookingGlassUI.git",
+        "state": {
+          "branch": "main",
+          "revision": "a3222e203b078a310096dd610f7022e71f13cce7",
+          "version": null
+        }
+      },
+      {
+        "package": "FirebladeMath",
+        "repositoryURL": "https://github.com/fireblade-engine/math.git",
+        "state": {
+          "branch": null,
+          "revision": "b6700cf9ddfe00423f789f88f2c3a79132cb2eba",
+          "version": "0.10.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

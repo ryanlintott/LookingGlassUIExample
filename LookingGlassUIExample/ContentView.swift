@@ -73,7 +73,7 @@ struct ContentView: View {
             
             SettingsView(updateInterval: $updateInterval, disabled: $disabled)
         }
-        .motionManager(updateInterval: $updateInterval, disabled: $disabled)
+        .motionManager(updateInterval: updateInterval, disabled: disabled)
     }
 }
 

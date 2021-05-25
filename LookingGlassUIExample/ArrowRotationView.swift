@@ -18,7 +18,7 @@ struct ArrowRotationView: View {
     var body: some View {
         Color.clear
             .overlay(
-                LookingGlass(type, distance: 10, perspective: 1, pitch: .degrees(45), roll: .zero, yaw: .zero, isShowingInFourDirections: true) {
+                LookingGlass(type, distance: 10, perspective: 1, pitch: .degrees(45), yaw: .zero, localRoll: .zero, isShowingInFourDirections: true) {
                     Color.gray
                         .frame(width: 100, height: 100)
                         .fixedSize()

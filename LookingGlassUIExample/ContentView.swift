@@ -37,6 +37,12 @@ struct ContentView: View {
                         Text("Window")
                     }
                 
+                ShimmerTestView()
+                    .tabItem {
+                        Image(systemName: "sparkle")
+                        Text("ShimmerTest")
+                    }
+                
                 ShimmerExampleView()
                     .tabItem {
                         Image(systemName: "sparkles")

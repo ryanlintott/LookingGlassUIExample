@@ -10,17 +10,17 @@ import SwiftUI
 
 struct TextReflectionExampleView: View {
     let pitch: Angle
-    let roll: Angle
     let yaw: Angle
+    let localRoll: Angle
     
-    init(pitch: Angle = .zero, roll: Angle = .zero, yaw: Angle = .zero) {
+    init(pitch: Angle = .zero, yaw: Angle = .zero, localRoll: Angle = .zero) {
         self.pitch = pitch
-        self.roll = roll
         self.yaw = yaw
+        self.localRoll = localRoll
     }
     
     var body: some View {
-        LookingGlass(.reflection, distance: 4000, perspective: 0, pitch: pitch, roll: roll, yaw: yaw, isShowingInFourDirections: true) {
+        LookingGlass(.reflection, distance: 4000, perspective: 0, pitch: pitch, yaw: yaw, localRoll: localRoll, isShowingInFourDirections: true) {
             Color.gray
                 .frame(width: 500, height: 500)
                 .fixedSize()

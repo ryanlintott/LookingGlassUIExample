@@ -11,7 +11,7 @@ struct ShimmerExampleView: View {
     var body: some View {
         ScrollView {
             LazyVStack {
-                ForEach(1..<20, id: \.self) { i in
+                ForEach(1..<100, id: \.self) { i in
                     VStack {
                         Rectangle()
                             .fill(Color.goldDark)

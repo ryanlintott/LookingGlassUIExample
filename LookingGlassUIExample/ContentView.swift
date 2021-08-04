@@ -15,13 +15,27 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 0) {
             TabView {
+                LookingGlassUIExampleView()
+                    .tabItem {
+                        Image(systemName: "light.max")
+                        Text("Logo")
+                    }
+                
+                ShimmerTestView()
+                    .tabItem {
+                        Image(systemName: "sparkle")
+                        Text("ShimmerTest")
+                    }
+                
+                ShimmerExampleView()
+                    .tabItem {
+                        Image(systemName: "sparkles")
+                        Text("Shimmer")
+                    }
+                
                 Color.clear
                     .overlay(
-                        VStack {
-                            ArrowRotationView(.reflection)
-                            
-                            ArrowRotationView(.window)
-                        }
+                        ArrowRotationView(.reflection)
                     )
                     .tabItem {
                         Image(systemName: "arrow.up.and.person.rectangle.portrait")
@@ -37,17 +51,6 @@ struct ContentView: View {
                         Text("Window")
                     }
                 
-                ShimmerTestView()
-                    .tabItem {
-                        Image(systemName: "sparkle")
-                        Text("ShimmerTest")
-                    }
-                
-                ShimmerExampleView()
-                    .tabItem {
-                        Image(systemName: "sparkles")
-                        Text("Shimmer")
-                    }
                 
                 Color.clear
                     .overlay(

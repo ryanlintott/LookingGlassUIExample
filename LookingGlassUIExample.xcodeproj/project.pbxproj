@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF01A72326BB565E00D30F17 /* LookingGlassUIExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01A72226BB565E00D30F17 /* LookingGlassUIExampleView.swift */; };
 		CF1AF40F265D4B5200B75D0D /* ShimmerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1AF40E265D4B5200B75D0D /* ShimmerTestView.swift */; };
 		CF4D35B726540516001D5F2A /* LookingGlassUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35B626540516001D5F2A /* LookingGlassUIExampleApp.swift */; };
 		CF4D35B926540516001D5F2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35B826540516001D5F2A /* ContentView.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF01A72226BB565E00D30F17 /* LookingGlassUIExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookingGlassUIExampleView.swift; sourceTree = "<group>"; };
 		CF1AF40E265D4B5200B75D0D /* ShimmerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerTestView.swift; sourceTree = "<group>"; };
 		CF4D35B326540516001D5F2A /* LookingGlassUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LookingGlassUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4D35B626540516001D5F2A /* LookingGlassUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookingGlassUIExampleApp.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				CF4D35E5265405AE001D5F2A /* Color-extension.swift */,
 				CF4D35E4265405AE001D5F2A /* SettingsView.swift */,
 				CF4D35E8265405AE001D5F2A /* ShimmerExampleView.swift */,
+				CF01A72226BB565E00D30F17 /* LookingGlassUIExampleView.swift */,
 				CF4D35E7265405AE001D5F2A /* TextReflectionExampleView.swift */,
 				CF4D35BA26540517001D5F2A /* Assets.xcassets */,
 				CF4D35BF26540517001D5F2A /* Info.plist */,
@@ -292,6 +295,7 @@
 				CF4D35ED265405AF001D5F2A /* ShimmerExampleView.swift in Sources */,
 				CF4D35EA265405AF001D5F2A /* Color-extension.swift in Sources */,
 				CF4D35EB265405AF001D5F2A /* ArrowRotationView.swift in Sources */,
+				CF01A72326BB565E00D30F17 /* LookingGlassUIExampleView.swift in Sources */,
 				CF4D35B926540516001D5F2A /* ContentView.swift in Sources */,
 				CF4D35B726540516001D5F2A /* LookingGlassUIExampleApp.swift in Sources */,
 				CF4D35EC265405AF001D5F2A /* TextReflectionExampleView.swift in Sources */,

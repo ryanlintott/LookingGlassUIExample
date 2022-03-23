@@ -21,6 +21,7 @@
 		CF4D35EB265405AF001D5F2A /* ArrowRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E6265405AE001D5F2A /* ArrowRotationView.swift */; };
 		CF4D35EC265405AF001D5F2A /* TextReflectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E7265405AE001D5F2A /* TextReflectionExampleView.swift */; };
 		CF4D35ED265405AF001D5F2A /* ShimmerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E8265405AE001D5F2A /* ShimmerExampleView.swift */; };
+		CFAA6D0327EB8FB300BA97C1 /* ParallaxExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAA6D0227EB8FB300BA97C1 /* ParallaxExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		CF4D35E7265405AE001D5F2A /* TextReflectionExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextReflectionExampleView.swift; sourceTree = "<group>"; };
 		CF4D35E8265405AE001D5F2A /* ShimmerExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShimmerExampleView.swift; sourceTree = "<group>"; };
 		CF4D35EE26540674001D5F2A /* LookingGlassUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LookingGlassUI; path = ../LookingGlassUI; sourceTree = "<group>"; };
+		CFAA6D0227EB8FB300BA97C1 /* ParallaxExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				CF4D35B826540516001D5F2A /* ContentView.swift */,
 				CF4D35E6265405AE001D5F2A /* ArrowRotationView.swift */,
 				CF1AF40E265D4B5200B75D0D /* ShimmerTestView.swift */,
+				CFAA6D0227EB8FB300BA97C1 /* ParallaxExample.swift */,
 				CF4D35E5265405AE001D5F2A /* Color-extension.swift */,
 				CF4D35E4265405AE001D5F2A /* SettingsView.swift */,
 				CF4D35E8265405AE001D5F2A /* ShimmerExampleView.swift */,
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF1AF40F265D4B5200B75D0D /* ShimmerTestView.swift in Sources */,
+				CFAA6D0327EB8FB300BA97C1 /* ParallaxExample.swift in Sources */,
 				CF4D35E9265405AF001D5F2A /* SettingsView.swift in Sources */,
 				CF4D35ED265405AF001D5F2A /* ShimmerExampleView.swift in Sources */,
 				CF4D35EA265405AF001D5F2A /* Color-extension.swift in Sources */,

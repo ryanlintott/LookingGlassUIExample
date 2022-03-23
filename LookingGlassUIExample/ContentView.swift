@@ -33,6 +33,12 @@ struct ContentView: View {
                         Text("Shimmer")
                     }
                 
+                ParallaxExample()
+                    .tabItem {
+                        Image(systemName: "rectangle.portrait.on.rectangle.portrait")
+                        Text("Parallax")
+                    }
+                
                 Color.clear
                     .overlay(
                         ArrowRotationView(.reflection)

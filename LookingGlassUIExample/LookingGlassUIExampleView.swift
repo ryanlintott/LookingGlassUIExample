@@ -39,7 +39,7 @@ struct LookingGlassUIExampleView: View {
             )
             .foregroundColor(.gold)
             .shimmer(color: .goldShimmer)
-            .background(Color.black.edgesIgnoringSafeArea(.all))
+            .background(Color.black.edgesIgnoringSafeArea(.top))
     }
 }
 struct LookingGlassUIExampleView_Previews: PreviewProvider {

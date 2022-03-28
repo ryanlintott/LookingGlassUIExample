@@ -84,6 +84,12 @@ struct ContentView: View {
                         Image(systemName: "arrow.up.forward")
                         Text("45°")
                     }
+                
+                MotionManagerExample()
+                    .tabItem {
+                        Image(systemName: "rectangle.split.3x3")
+                        Text("MotionManager Data")
+                    }
             }
             
             SettingsView(updateInterval: $updateInterval, disabled: $disabled)

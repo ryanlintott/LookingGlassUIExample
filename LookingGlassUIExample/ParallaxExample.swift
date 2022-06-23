@@ -23,6 +23,7 @@ struct ParallaxContent: View {
                 .background(
                     shape
                         .fill(.blue)
+                        .accessibilityLabel("Blue rectangle")
                         .parallax(multiplier: multiplier, maxOffset: maxOffset)
                 )
                 .frame(width: 100, height: 200)

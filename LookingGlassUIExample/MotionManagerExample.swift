@@ -14,19 +14,26 @@ struct MotionManagerExample: View {
     var body: some View {
         List {
             Section(header: Text("Axis Vector and angle")) {
-                Text("Axis Vector x: \(motionManager.quaternion.axis.x)")
-                Text("Axis Vector y: \(motionManager.quaternion.axis.y)")
-                Text("Axis Vector z: \(motionManager.quaternion.axis.z)")
-                Text("Angle (radians): \(motionManager.quaternion.angle)")
+                data("Axis Vector x", motionManager.quaternion.axis.x)
+                data("Axis Vector y", motionManager.quaternion.axis.y)
+                data("Axis Vector z", motionManager.quaternion.axis.z)
+                data("Angle (radians)", motionManager.quaternion.angle)
             }
             
             Section(header: Text("Rotation components")) {
-                Text("Pitch (radians): \(motionManager.quaternion.pitch)")
-                Text("Yaw (radians): \(motionManager.quaternion.yaw)")
-                Text("Roll (radians): \(motionManager.quaternion.roll)")
+                data("Pitch (radians)", motionManager.quaternion.pitch)
+                data("Yaw (radians)", motionManager.quaternion.yaw)
+                data("Roll (radians)", motionManager.quaternion.roll)
             }
         }
         .navigationTitle("MotionManager Data")
+    }
+    
+    func data(_ label: String, _ value: Float) -> some View {
+        Text("\(label): \(value)")
+            .accessibilityLabel(label)
+            .accessibilityValue(String(value))
+            .accessibilityAddTraits(.updatesFrequently)
     }
 }
 

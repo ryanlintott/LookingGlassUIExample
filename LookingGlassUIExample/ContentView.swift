@@ -39,51 +39,60 @@ struct ContentView: View {
                         Text("Parallax")
                     }
                 
-                Color.clear
-                    .overlay(
-                        ArrowRotationView(.reflection)
-                    )
-                    .tabItem {
-                        Image(systemName: "arrow.up.and.person.rectangle.portrait")
-                        Text("Reflection")
-                    }
+                Group {
+                    DeviceRotationEffectExample()
+                        .tabItem {
+                            Image(systemName: "arrow.turn.up.forward.iphone")
+                            Text("Device")
+                        }
+                    
+                    Color.clear
+                        .overlay(
+                            ArrowRotationView(.reflection)
+                        )
+                        .tabItem {
+                            Image(systemName: "arrow.up.and.person.rectangle.portrait")
+                            Text("Reflection")
+                        }
+                    
+                    Color.clear
+                        .overlay(
+                            ArrowRotationView(.window)
+                        )
+                        .tabItem {
+                            Image(systemName: "arrow.up.and.person.rectangle.portrait")
+                            Text("Window")
+                        }
+                    
+                    Color.clear
+                        .overlay(
+                            TextReflectionExampleView()
+                        )
+                        .tabItem {
+                            Image(systemName: "arrow.up")
+                            Text("0°")
+                        }
+                    
+                    Color.clear
+                        .overlay(
+                            TextReflectionExampleView(pitch: .degrees(90))
+                        )
+                        .tabItem {
+                            Image(systemName: "arrow.forward")
+                            Text("90°")
+                        }
+                    
+                    Color.clear
+                        .overlay(
+                            TextReflectionExampleView(pitch: .degrees(45))
+                        )
+                        .tabItem {
+                            Image(systemName: "arrow.up.forward")
+                            Text("45°")
+                        }
+                }
                 
-                Color.clear
-                    .overlay(
-                        ArrowRotationView(.window)
-                    )
-                    .tabItem {
-                        Image(systemName: "arrow.up.and.person.rectangle.portrait")
-                        Text("Window")
-                    }
                 
-                
-                Color.clear
-                    .overlay(
-                        TextReflectionExampleView()
-                    )
-                    .tabItem {
-                        Image(systemName: "arrow.up")
-                        Text("0°")
-                    }
-                
-                Color.clear
-                    .overlay(
-                        TextReflectionExampleView(pitch: .degrees(90))
-                    )
-                    .tabItem {
-                        Image(systemName: "arrow.forward")
-                        Text("90°")
-                    }
-                
-                Color.clear
-                    .overlay(
-                        TextReflectionExampleView(pitch: .degrees(45))
-                    )
-                    .tabItem {
-                        Image(systemName: "arrow.up.forward")
-                        Text("45°")
-                    }
                 
                 MotionManagerExample()
                     .tabItem {

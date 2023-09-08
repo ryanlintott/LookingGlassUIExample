@@ -28,7 +28,7 @@ struct LookingGlassUIExampleView: View {
                     
                     Spacer()
                     
-                    Link(destination: URL(string: "https://twitter.com/ryanlintott")!) {
+                    Link(destination: URL(string: "https://mastodon.social/@ryanlintott")!) {
                         Text("By: Ryan Lintott")
                             .font(.custom("Cochin", size: 19))
                             .bold()

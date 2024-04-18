@@ -41,5 +41,6 @@ struct ArrowRotationView: View {
 struct ArrowRotationView_Previews: PreviewProvider {
     static var previews: some View {
         ArrowRotationView(.reflection)
+            .motionManager(updateInterval: 0)
     }
 }

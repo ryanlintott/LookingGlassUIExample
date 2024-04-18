@@ -8,8 +8,8 @@
 import LookingGlassUI
 import SwiftUI
 
-struct ParallaxContent: View {
-    @State private var multiplier = 10.0
+struct ParallaxExample: View {
+    @State private var multiplier = 100.0
     @State private var maxOffset = 50.0
     
     let shape = RoundedRectangle(cornerRadius: 20)
@@ -34,7 +34,7 @@ struct ParallaxContent: View {
                 HStack {
                     Text("Multiplier")
                     
-                    Slider(value: $multiplier, in: 0...100)
+                    Slider(value: $multiplier, in: 0...200)
                         .padding(.horizontal)
                 }
                 
@@ -51,18 +51,9 @@ struct ParallaxContent: View {
     }
 }
 
-struct ParallaxExample: View {
-    var body: some View {
-        ParallaxContent()
-            .motionManager(updateInterval: 0.05)
-    }
-}
-
-
-
 struct ParallaxExample_Previews: PreviewProvider {
     static var previews: some View {
         ParallaxExample()
-        
+            .motionManager(updateInterval: 0)
     }
 }

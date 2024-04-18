@@ -60,5 +60,6 @@ struct ShimmerExampleView: View {
 struct ShimmerExampleView_Previews: PreviewProvider {
     static var previews: some View {
         ShimmerExampleView()
+            .motionManager(updateInterval: 0)
     }
 }

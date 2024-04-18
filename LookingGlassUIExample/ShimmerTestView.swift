@@ -22,5 +22,6 @@ struct ShimmerTestView: View {
 struct ShimmerTestView_Previews: PreviewProvider {
     static var previews: some View {
         ShimmerTestView()
+            .motionManager(updateInterval: 0)
     }
 }

@@ -15,7 +15,6 @@
 		CF4D35BE26540517001D5F2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4D35BD26540517001D5F2A /* Preview Assets.xcassets */; };
 		CF4D35E326540576001D5F2A /* LookingGlassUI in Frameworks */ = {isa = PBXBuildFile; productRef = CF4D35E226540576001D5F2A /* LookingGlassUI */; };
 		CF4D35E9265405AF001D5F2A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E4265405AE001D5F2A /* SettingsView.swift */; };
-		CF4D35EA265405AF001D5F2A /* Color-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E5265405AE001D5F2A /* Color-extension.swift */; };
 		CF4D35EB265405AF001D5F2A /* ArrowRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E6265405AE001D5F2A /* ArrowRotationView.swift */; };
 		CF4D35EC265405AF001D5F2A /* TextReflectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E7265405AE001D5F2A /* TextReflectionExampleView.swift */; };
 		CF4D35ED265405AF001D5F2A /* ShimmerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E8265405AE001D5F2A /* ShimmerExampleView.swift */; };
@@ -34,7 +33,6 @@
 		CF4D35BD26540517001D5F2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF4D35BF26540517001D5F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF4D35E4265405AE001D5F2A /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		CF4D35E5265405AE001D5F2A /* Color-extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color-extension.swift"; sourceTree = "<group>"; };
 		CF4D35E6265405AE001D5F2A /* ArrowRotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowRotationView.swift; sourceTree = "<group>"; };
 		CF4D35E7265405AE001D5F2A /* TextReflectionExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextReflectionExampleView.swift; sourceTree = "<group>"; };
 		CF4D35E8265405AE001D5F2A /* ShimmerExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShimmerExampleView.swift; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				CF1AF40E265D4B5200B75D0D /* ShimmerTestView.swift */,
 				CFAA6D0227EB8FB300BA97C1 /* ParallaxExample.swift */,
 				CFFEAF0E27F212820086ECC5 /* MotionManagerExample.swift */,
-				CF4D35E5265405AE001D5F2A /* Color-extension.swift */,
 				CF4D35E4265405AE001D5F2A /* SettingsView.swift */,
 				CF4D35E8265405AE001D5F2A /* ShimmerExampleView.swift */,
 				CF01A72226BB565E00D30F17 /* LookingGlassUIExampleView.swift */,
@@ -134,7 +131,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					CF4D35B226540516001D5F2A = {
 						CreatedOnToolsVersion = 12.5;
@@ -184,7 +181,6 @@
 				CF4D35E9265405AF001D5F2A /* SettingsView.swift in Sources */,
 				CF8A40FE28C1A3F900A8843D /* DeviceRotationEffectExample.swift in Sources */,
 				CF4D35ED265405AF001D5F2A /* ShimmerExampleView.swift in Sources */,
-				CF4D35EA265405AF001D5F2A /* Color-extension.swift in Sources */,
 				CF4D35EB265405AF001D5F2A /* ArrowRotationView.swift in Sources */,
 				CFFEAF0F27F212820086ECC5 /* MotionManagerExample.swift in Sources */,
 				CF01A72326BB565E00D30F17 /* LookingGlassUIExampleView.swift in Sources */,
@@ -201,6 +197,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -266,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

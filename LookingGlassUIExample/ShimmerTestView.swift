@@ -11,17 +11,45 @@ import SwiftUI
 struct ShimmerTestView: View {
     var body: some View {
         VStack {
-            Color.black
-                .shimmer(color: .red, background: .blue)
-            
             ShimmerView(color: .red, background: .blue)
+                .overlay(
+                    VStack {
+                        Text("ShimmerView(color: .red, background: .blue)")
+                    }
+                        .padding()
+                )
+                .accessibilityElement(children: .combine)
+            
+            Capsule().shimmer(color: .red, background: .blue)
+                .overlay(
+                    Text("Capsule().shimmer(color: .red, background: .blue)")
+                        .padding()
+                )
+                .accessibilityElement(children: .combine)
+            
+            Capsule().fill(.blue).shimmer(color: .red)
+                .overlay(
+                    VStack {
+                        Text("Capsule().fill(.blue).shimmer(color: .red)")
+                        Text("(uses .screen blend mode)")
+                    }
+                        .padding()
+                )
+                .accessibilityElement(children: .combine)
+            
+            Capsule().fill(.blue).shimmer(color: .red, blendMode: .multiply)
+                .overlay(
+                    Text("Capsule().fill(.blue).shimmer(color: .red, blendMode: .multiply)")
+                        .padding()
+                )
+                .accessibilityElement(children: .combine)
         }
+        .foregroundColor(.white)
+        .font(.caption)
     }
 }
 
-struct ShimmerTestView_Previews: PreviewProvider {
-    static var previews: some View {
-        ShimmerTestView()
-            .motionManager(updateInterval: 0)
-    }
+#Preview {
+    ShimmerTestView()
+        .motionManager(updateInterval: 0)
 }

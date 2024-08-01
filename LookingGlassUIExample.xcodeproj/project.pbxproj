@@ -13,8 +13,6 @@
 		CF4D35B926540516001D5F2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35B826540516001D5F2A /* ContentView.swift */; };
 		CF4D35BB26540517001D5F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4D35BA26540517001D5F2A /* Assets.xcassets */; };
 		CF4D35BE26540517001D5F2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4D35BD26540517001D5F2A /* Preview Assets.xcassets */; };
-		CF4D35C926540517001D5F2A /* LookingGlassUIExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35C826540517001D5F2A /* LookingGlassUIExampleTests.swift */; };
-		CF4D35D426540517001D5F2A /* LookingGlassUIExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35D326540517001D5F2A /* LookingGlassUIExampleUITests.swift */; };
 		CF4D35E326540576001D5F2A /* LookingGlassUI in Frameworks */ = {isa = PBXBuildFile; productRef = CF4D35E226540576001D5F2A /* LookingGlassUI */; };
 		CF4D35E9265405AF001D5F2A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E4265405AE001D5F2A /* SettingsView.swift */; };
 		CF4D35EA265405AF001D5F2A /* Color-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D35E5265405AE001D5F2A /* Color-extension.swift */; };
@@ -26,23 +24,6 @@
 		CFFEAF0F27F212820086ECC5 /* MotionManagerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFEAF0E27F212820086ECC5 /* MotionManagerExample.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CF4D35C526540517001D5F2A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CF4D35AB26540516001D5F2A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF4D35B226540516001D5F2A;
-			remoteInfo = LookingGlassUIExample;
-		};
-		CF4D35D026540517001D5F2A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CF4D35AB26540516001D5F2A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF4D35B226540516001D5F2A;
-			remoteInfo = LookingGlassUIExample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		CF01A72226BB565E00D30F17 /* LookingGlassUIExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookingGlassUIExampleView.swift; sourceTree = "<group>"; };
 		CF1AF40E265D4B5200B75D0D /* ShimmerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerTestView.swift; sourceTree = "<group>"; };
@@ -52,12 +33,6 @@
 		CF4D35BA26540517001D5F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4D35BD26540517001D5F2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF4D35BF26540517001D5F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF4D35C426540517001D5F2A /* LookingGlassUIExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookingGlassUIExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF4D35C826540517001D5F2A /* LookingGlassUIExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookingGlassUIExampleTests.swift; sourceTree = "<group>"; };
-		CF4D35CA26540517001D5F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF4D35CF26540517001D5F2A /* LookingGlassUIExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookingGlassUIExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF4D35D326540517001D5F2A /* LookingGlassUIExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookingGlassUIExampleUITests.swift; sourceTree = "<group>"; };
-		CF4D35D526540517001D5F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF4D35E4265405AE001D5F2A /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CF4D35E5265405AE001D5F2A /* Color-extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color-extension.swift"; sourceTree = "<group>"; };
 		CF4D35E6265405AE001D5F2A /* ArrowRotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowRotationView.swift; sourceTree = "<group>"; };
@@ -78,20 +53,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF4D35C126540517001D5F2A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF4D35CC26540517001D5F2A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,8 +61,6 @@
 			children = (
 				CF4D35EE26540674001D5F2A /* LookingGlassUI */,
 				CF4D35B526540516001D5F2A /* LookingGlassUIExample */,
-				CF4D35C726540517001D5F2A /* LookingGlassUIExampleTests */,
-				CF4D35D226540517001D5F2A /* LookingGlassUIExampleUITests */,
 				CF4D35B426540516001D5F2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				CF4D35B326540516001D5F2A /* LookingGlassUIExample.app */,
-				CF4D35C426540517001D5F2A /* LookingGlassUIExampleTests.xctest */,
-				CF4D35CF26540517001D5F2A /* LookingGlassUIExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,24 +103,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CF4D35C726540517001D5F2A /* LookingGlassUIExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				CF4D35C826540517001D5F2A /* LookingGlassUIExampleTests.swift */,
-				CF4D35CA26540517001D5F2A /* Info.plist */,
-			);
-			path = LookingGlassUIExampleTests;
-			sourceTree = "<group>";
-		};
-		CF4D35D226540517001D5F2A /* LookingGlassUIExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CF4D35D326540517001D5F2A /* LookingGlassUIExampleUITests.swift */,
-				CF4D35D526540517001D5F2A /* Info.plist */,
-			);
-			path = LookingGlassUIExampleUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,42 +126,6 @@
 			productReference = CF4D35B326540516001D5F2A /* LookingGlassUIExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CF4D35C326540517001D5F2A /* LookingGlassUIExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF4D35DB26540517001D5F2A /* Build configuration list for PBXNativeTarget "LookingGlassUIExampleTests" */;
-			buildPhases = (
-				CF4D35C026540517001D5F2A /* Sources */,
-				CF4D35C126540517001D5F2A /* Frameworks */,
-				CF4D35C226540517001D5F2A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF4D35C626540517001D5F2A /* PBXTargetDependency */,
-			);
-			name = LookingGlassUIExampleTests;
-			productName = LookingGlassUIExampleTests;
-			productReference = CF4D35C426540517001D5F2A /* LookingGlassUIExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CF4D35CE26540517001D5F2A /* LookingGlassUIExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF4D35DE26540517001D5F2A /* Build configuration list for PBXNativeTarget "LookingGlassUIExampleUITests" */;
-			buildPhases = (
-				CF4D35CB26540517001D5F2A /* Sources */,
-				CF4D35CC26540517001D5F2A /* Frameworks */,
-				CF4D35CD26540517001D5F2A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF4D35D126540517001D5F2A /* PBXTargetDependency */,
-			);
-			name = LookingGlassUIExampleUITests;
-			productName = LookingGlassUIExampleUITests;
-			productReference = CF4D35CF26540517001D5F2A /* LookingGlassUIExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -235,14 +138,6 @@
 				TargetAttributes = {
 					CF4D35B226540516001D5F2A = {
 						CreatedOnToolsVersion = 12.5;
-					};
-					CF4D35C326540517001D5F2A = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = CF4D35B226540516001D5F2A;
-					};
-					CF4D35CE26540517001D5F2A = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = CF4D35B226540516001D5F2A;
 					};
 				};
 			};
@@ -263,8 +158,6 @@
 			projectRoot = "";
 			targets = (
 				CF4D35B226540516001D5F2A /* LookingGlassUIExample */,
-				CF4D35C326540517001D5F2A /* LookingGlassUIExampleTests */,
-				CF4D35CE26540517001D5F2A /* LookingGlassUIExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,20 +169,6 @@
 			files = (
 				CF4D35BE26540517001D5F2A /* Preview Assets.xcassets in Resources */,
 				CF4D35BB26540517001D5F2A /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF4D35C226540517001D5F2A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF4D35CD26540517001D5F2A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,36 +194,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF4D35C026540517001D5F2A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF4D35C926540517001D5F2A /* LookingGlassUIExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF4D35CB26540517001D5F2A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF4D35D426540517001D5F2A /* LookingGlassUIExampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CF4D35C626540517001D5F2A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF4D35B226540516001D5F2A /* LookingGlassUIExample */;
-			targetProxy = CF4D35C526540517001D5F2A /* PBXContainerItemProxy */;
-		};
-		CF4D35D126540517001D5F2A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF4D35B226540516001D5F2A /* LookingGlassUIExample */;
-			targetProxy = CF4D35D026540517001D5F2A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CF4D35D626540517001D5F2A /* Debug */ = {
@@ -408,6 +258,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -465,6 +316,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -525,102 +377,6 @@
 			};
 			name = Release;
 		};
-		CF4D35DC26540517001D5F2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 97423JQ8B9;
-				INFOPLIST_FILE = LookingGlassUIExampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abetterwaytodo.LookingGlassUIExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LookingGlassUIExample.app/LookingGlassUIExample";
-			};
-			name = Debug;
-		};
-		CF4D35DD26540517001D5F2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 97423JQ8B9;
-				INFOPLIST_FILE = LookingGlassUIExampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abetterwaytodo.LookingGlassUIExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LookingGlassUIExample.app/LookingGlassUIExample";
-			};
-			name = Release;
-		};
-		CF4D35DF26540517001D5F2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 97423JQ8B9;
-				INFOPLIST_FILE = LookingGlassUIExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abetterwaytodo.LookingGlassUIExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LookingGlassUIExample;
-			};
-			name = Debug;
-		};
-		CF4D35E026540517001D5F2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 97423JQ8B9;
-				INFOPLIST_FILE = LookingGlassUIExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abetterwaytodo.LookingGlassUIExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LookingGlassUIExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -638,24 +394,6 @@
 			buildConfigurations = (
 				CF4D35D926540517001D5F2A /* Debug */,
 				CF4D35DA26540517001D5F2A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CF4D35DB26540517001D5F2A /* Build configuration list for PBXNativeTarget "LookingGlassUIExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF4D35DC26540517001D5F2A /* Debug */,
-				CF4D35DD26540517001D5F2A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CF4D35DE26540517001D5F2A /* Build configuration list for PBXNativeTarget "LookingGlassUIExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF4D35DF26540517001D5F2A /* Debug */,
-				CF4D35E026540517001D5F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
